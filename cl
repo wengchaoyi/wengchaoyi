@@ -5,24 +5,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CA_加拿大, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _CA_加拿大 2, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大 3, server: 134.195.196.205, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _CA_加拿大 4, server: 134.195.196.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 5, server: 134.195.196.205, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大 6, server: 134.195.196.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 7, server: 198.57.27.225, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大 8, server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 9, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大 10, server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 11, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大 12, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: _CA_加拿大 13, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 14, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 15, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大 16, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大 17, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.205, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.196.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 4, server: 134.195.196.205, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 5, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大 6, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 7, server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 8, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 9, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 10, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 11, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -40,13 +33,6 @@ proxy-groups:
       - _CA_加拿大 9
       - _CA_加拿大 10
       - _CA_加拿大 11
-      - _CA_加拿大 12
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _CA_加拿大 13
-      - _CA_加拿大 14
-      - _CA_加拿大 15
-      - _CA_加拿大 16
-      - _CA_加拿大 17
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -63,13 +49,6 @@ proxy-groups:
       - _CA_加拿大 9
       - _CA_加拿大 10
       - _CA_加拿大 11
-      - _CA_加拿大 12
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _CA_加拿大 13
-      - _CA_加拿大 14
-      - _CA_加拿大 15
-      - _CA_加拿大 16
-      - _CA_加拿大 17
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -87,13 +66,6 @@ proxy-groups:
       - _CA_加拿大 9
       - _CA_加拿大 10
       - _CA_加拿大 11
-      - _CA_加拿大 12
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _CA_加拿大 13
-      - _CA_加拿大 14
-      - _CA_加拿大 15
-      - _CA_加拿大 16
-      - _CA_加拿大 17
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -123,13 +95,6 @@ proxy-groups:
       - _CA_加拿大 9
       - _CA_加拿大 10
       - _CA_加拿大 11
-      - _CA_加拿大 12
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _CA_加拿大 13
-      - _CA_加拿大 14
-      - _CA_加拿大 15
-      - _CA_加拿大 16
-      - _CA_加拿大 17
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -151,13 +116,6 @@ proxy-groups:
       - _CA_加拿大 9
       - _CA_加拿大 10
       - _CA_加拿大 11
-      - _CA_加拿大 12
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _CA_加拿大 13
-      - _CA_加拿大 14
-      - _CA_加拿大 15
-      - _CA_加拿大 16
-      - _CA_加拿大 17
   - name: 📲 电报信息
     type: select
     proxies:
@@ -174,13 +132,6 @@ proxy-groups:
       - _CA_加拿大 9
       - _CA_加拿大 10
       - _CA_加拿大 11
-      - _CA_加拿大 12
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _CA_加拿大 13
-      - _CA_加拿大 14
-      - _CA_加拿大 15
-      - _CA_加拿大 16
-      - _CA_加拿大 17
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -198,13 +149,6 @@ proxy-groups:
       - _CA_加拿大 9
       - _CA_加拿大 10
       - _CA_加拿大 11
-      - _CA_加拿大 12
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _CA_加拿大 13
-      - _CA_加拿大 14
-      - _CA_加拿大 15
-      - _CA_加拿大 16
-      - _CA_加拿大 17
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -231,13 +175,6 @@ proxy-groups:
       - _CA_加拿大 9
       - _CA_加拿大 10
       - _CA_加拿大 11
-      - _CA_加拿大 12
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _CA_加拿大 13
-      - _CA_加拿大 14
-      - _CA_加拿大 15
-      - _CA_加拿大 16
-      - _CA_加拿大 17
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
